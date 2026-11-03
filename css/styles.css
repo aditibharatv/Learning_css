@@ -15,3 +15,50 @@ h4{
                 font-size: 120px;
                 background-color: bisque;
             } 
+            .uppercase {
+            text-transform: uppercase;
+        }
+
+        .lowercase {
+            text-transform: lowercase;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        .color {
+            color: blue;
+        }
+
+        .alignment {
+            text-align: center;
+        }
+
+        .decoration {
+            text-decoration: underline;
+        }
+
+        .line-through {
+            text-decoration: line-through;
+        }
+
+        .overline {
+            text-decoration: overline;
+        }
+
+        .spacing {
+            letter-spacing: 5px;
+        }
+
+        .word-spacing {
+            word-spacing: 10px;
+        }
+
+        .line-height {
+            line-height: 30px;
+        }
+
+        .shadow {
+            text-shadow: 2px 2px 3px gray;
+        }
