@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #ffe0b2, #fff3e0);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .menu {
+            width: 400px;
+            margin: 70px auto;
+            padding: 30px;
+            background-color: white;
+
+            border: 4px solid #e65100;
+            border-radius: 25px;
+            outline: 3px dashed orange;
+            outline-offset: 5px;
+
+            box-shadow: 5px 8px 20px gray;
+            transition: all 0.5s ease;
+        }
+
+        .menu:hover {
+            transform: scale(1.03);
+            box-shadow: 10px 12px 25px gray;
+        }
+
+        h1 {
+            color: #bf360c;
+            font-size: 35px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 4px orange;
+        }
+
+        h2 {
+            color: #e65100;
+            text-align: left;
+            border-bottom: 2px dashed orange;
+            padding-bottom: 10px;
+        }
+
+        .item {
+            color: #333;
+            font-size: 18px;
+            text-align: left;
+            word-spacing: 5px;
+            line-height: 2;
+            border-bottom: 1px dotted gray;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            float: right;
+        }
+
+        button {
+            background: linear-gradient(to right, orange, red);
+            color: white;
+            padding: 12px 30px;
+            border: 2px solid darkred;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        button:hover {
+            background: darkred;
+            letter-spacing: 3px;
+            transform: translateY(-5px);
+        }
+
+        p::first-letter {
+            color: red;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+
+        <h1>Food Corner</h1>
+
+        <p>Delicious food, happy moments!</p>
+
+        <h2>Our Menu</h2>
+
+        <div class="item">
+            Pizza <span class="price">₹199</span>
+        </div>
+
+        <div class="item">
+            Burger <span class="price">₹99</span>
+        </div>
+
+        <div class="item">
+            Pasta <span class="price">₹149</span>
+        </div>
+
+        <div class="item">
+            Sandwich <span class="price">₹79</span>
+        </div>
+
+        <br>
+
+        <button>Order Now</button>
+
+    </div>
+
+</body>
+</html>
