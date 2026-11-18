@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie's Corner</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: tomato;
+            color: white;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            background-color: #ffe0b2;
+            padding: 50px;
+        }
+
+        .food {
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            margin: 15px;
+            padding: 20px;
+            border: 2px solid tomato;
+            border-radius: 12px;
+        }
+
+        .food h3 {
+            color: tomato;
+        }
+
+        button {
+            background-color: tomato;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🍕 Foodie's Corner</h1>
+        <p>Fresh Food, Happy Mood!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Welcome to Foodie's Corner!</h2>
+        <p>Enjoy delicious food with your family.</p>
+        <button>Order Now</button>
+    </div>
+
+    <section id="menu">
+        <h2>Our Special Menu</h2>
+
+        <div class="food">
+            <h3>🍕 Pizza</h3>
+            <p>Cheesy and delicious pizza.</p>
+            <h4>₹199</h4>
+        </div>
+
+        <div class="food">
+            <h3>🍔 Burger</h3>
+            <p>Fresh and crispy burger.</p>
+            <h4>₹99</h4>
+        </div>
+
+        <div class="food">
+            <h3>🍝 Pasta</h3>
+            <p>Creamy white sauce pasta.</p>
+            <h4>₹149</h4>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We serve fresh and tasty food with love and care.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: foodies@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Foodie's Corner | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
